@@ -112,7 +112,7 @@ const Work = () => {
               <h4 className="bold-text">{work.title}</h4>
               <p className="p-text" style={{ marginTop: 10 }}>{work.description}
               </p>
-              {console.log('all work: ', work?.technology)}
+              {/* {console.log('all work: ', work?.technology)} */}
               <div className="app__work-parnt">
                 {work?.technology?.map((item, index) => (
                   <div
